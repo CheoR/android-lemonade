@@ -121,11 +121,12 @@ fun LemonTextAndImage(
 ) {
     Box(
         modifier = modifier
+            .background(Color.Red)
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
-            modifier = Modifier.fillMaxSize()
+            modifier = Modifier.fillMaxSize().background(Color.LightGray)
         ) {
             Button(
                 onClick = onImageClick,
